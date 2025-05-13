@@ -9,9 +9,9 @@
 
 import express from "express";
 const router = express.Router();
-import * as UserController from "~/controllers/UserController";
-import { uploadUserCloud } from "~/middlewares/uploadFileMiddleware";
-import { authUserMiddleware, authAdminMiddleware } from "~/middlewares/authMiddleware";
+import * as UserController from "../controllers/UserController.js";
+import { uploadUserCloud } from "../middlewares/uploadFileMiddleware.js";
+import { authUserMiddleware, authAdminMiddleware } from "../middlewares/authMiddleware.js";
 
 
 router.route('/')

@@ -1,9 +1,9 @@
 
 import ReviewRouter from './ReviewRouter.js';
-import ProductRouter from "./ProductRouter";
-import UserRouter from "./UserRouter";
-import OrderRouter from "./OrderRouter";
-import AuthenRouter from './AuthenRouter';
+import ProductRouter from "./ProductRouter.js";
+import UserRouter from "./UserRouter.js";
+import OrderRouter from "./OrderRouter.js";
+import AuthenRouter from './AuthenRouter.js';
 import CategoryRouter from './CategoryRouter.js'
 import PromotionRouter from './PromotionRouter.js';
 import ServiceRouter from './ServiceRouter.js';

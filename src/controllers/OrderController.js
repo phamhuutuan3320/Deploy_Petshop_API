@@ -1,8 +1,8 @@
 
-import * as OrderService from "~/services/OrderService";
+import * as OrderService from "../services/OrderService.js";
 
 const createOrder = async (req, res) => {
-  console.log("controller", typeof req.body.products);
+  // console.log("controller", typeof req.body.products);
 
   try {
     const response = await OrderService.createOrder(req.body);

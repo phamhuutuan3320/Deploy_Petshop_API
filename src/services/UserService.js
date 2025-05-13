@@ -5,11 +5,11 @@
 // const JWTService = require("./JWTService");
 // const nodemailer = require("nodemailer");
 // const jwt = require("jsonwebtoken");
-import User from '~/models/UserModel';
-import Order from '~/models/OrderModel';
+import User from '../models/UserModel.js';
+import Order from '../models/OrderModel.js';
 import bcrypt from 'bcrypt';
 import { v2 as cloudinary } from "cloudinary";
-import JWTService from './JWTService';
+import JWTService from './JWTService.js';
 import nodemailer from 'nodemailer';
 import dotenv from "dotenv";
 dotenv.config();

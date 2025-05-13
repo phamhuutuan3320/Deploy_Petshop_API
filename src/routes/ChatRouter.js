@@ -3,8 +3,8 @@
 // const OrderController = require("../controllers/OrderController");
 import express from "express";
 const router = express.Router();
-import * as ChatController from "~/controllers/ChatController";
-import { authAdminMiddleware, authUserMiddleware } from "../middlewares/authMiddleware";
+import * as ChatController from "../controllers/ChatController.js";
+// import { authAdminMiddleware, authUserMiddleware } from "../middlewares/authMiddleware.js";
 
 router.post("/", ChatController.createChat);
 router.get("/:userId", ChatController.findUserChats);

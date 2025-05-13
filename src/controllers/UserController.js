@@ -2,13 +2,13 @@
 // const JWTService = require("../services/JWTService");
 // const cloudinary = require("cloudinary").v2;
 // const useragent = require("useragent");
-import * as UserService from "~/services/UserService";
-import JWTService from "~/services/JWTService";
-import { v2 as cloudinary } from "cloudinary";
-import useragent from "useragent";
+import * as UserService from "../services/UserService.js";
+import JWTService from "../services/JWTService.js";
+// import { v2 as cloudinary } from "cloudinary";
+// import useragent from "useragent";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
-import User from "~/models/UserModel";
+// import User from "~/models/UserModel";
 dotenv.config();
 
 const registerUser = async (req, res) => {
