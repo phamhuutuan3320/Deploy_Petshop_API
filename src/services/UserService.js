@@ -218,7 +218,7 @@ const registerUser = (data) => {
             html: `
                 <p>Chào bạn,</p>
                 <p>Hãy nhấn vào nút dưới đây để xác nhận email và kích hoạt tài khoản:</p>
-                <a href="http://localhost:8080/api/verify-email?token=${access_token}" 
+                <a href="${process.env.API_URL}/api/verify-email?token=${access_token}" 
                    style="padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
                    Xác nhận tài khoản
                 </a>
